@@ -1,0 +1,21 @@
+version: 0.1
+phases:
+  install:
+    commands:
+      - echo Entered the install phase...
+      - apt-get update
+      - apt-get install zip 
+      - pip install awscli
+  build:
+    commands:
+      - echo Entered the build phase...
+      - zip -r src.zip *
+      - zip -r custom-resources.zip templates/custom-resources
+
+
+artifacts:
+  files:
+      - 'templates'
+      - 'src.zip'
+      - 'custom-resources.zip'
+      - 'lex-web-ui/static/img/flowers.jpeg'
