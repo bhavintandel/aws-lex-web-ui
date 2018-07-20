@@ -19,4 +19,3 @@ artifacts:
       - 'src.zip'
       - 'custom-resources.zip'
       - 'lex-web-ui/static/img/flowers.jpeg'
-  discard-paths: yes
