@@ -10,7 +10,7 @@ phases:
     commands:
       - echo Entered the build phase...
       - zip -r src.zip *
-      - zip -r custom-resources.zip templates/custom-resources
+      - zip -j -r custom-resources.zip templates/custom-resources 
 
 
 artifacts:
