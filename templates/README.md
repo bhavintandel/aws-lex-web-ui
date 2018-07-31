@@ -40,7 +40,7 @@ To launch a stack using the CodeBuild Mode (faster and easier), click this butto
 
 Click the following button to launch a stack using the Pipeline Mode:
 
-[![cloudformation-launch-stack](https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=eu-west-1#/stacks/new?stackName=lex-web-ui&templateURL=https://s3-eu-west-1.amazonaws.com/cwk-lex-webui-project/artifacts/master-pipeline.yaml)
+[![cloudformation-launch-stack](https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=eu-west-1#/stacks/new?stackName=lex-web-ui&templateURL=https://s3-eu-west-1.amazonaws.com/cwk-lex-webui-project/artifacts/templates/master-pipeline.yaml)
 
 ### CloudFormation Resources
 The CloudFormation stack can create resources in your AWS account
